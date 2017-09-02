@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunset" translatesAutoresizingMaskIntoConstraints="NO" id="eNO-ZO-Z4W">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA POPRAWĘ NASTROJU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhT-cd-Inw">
+                                <rect key="frame" x="0.0" y="382" width="375" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="aGj-R8-FLJ"/>
+                                    <constraint firstAttribute="width" constant="375" id="sTB-FB-jax"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eNO-ZO-Z4W" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="4r9-gP-iuT"/>
+                            <constraint firstAttribute="trailing" secondItem="VhT-cd-Inw" secondAttribute="trailing" id="D7a-vZ-xKl"/>
+                            <constraint firstItem="eNO-ZO-Z4W" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FaN-cw-dg9"/>
+                            <constraint firstAttribute="trailing" secondItem="eNO-ZO-Z4W" secondAttribute="trailing" id="NaQ-6J-bf7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VhT-cd-Inw" secondAttribute="bottom" constant="236" id="QSg-OS-yS5"/>
+                            <constraint firstItem="VhT-cd-Inw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Zcy-XU-Fo0"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eNO-ZO-Z4W" secondAttribute="bottom" id="f4L-IY-AOS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-sunset" width="640" height="1136"/>
+    </resources>
+</document>
